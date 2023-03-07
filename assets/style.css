@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family:monospace;
+}
+
+body{
+    background-color: lightblue;
+}
+
+header{
+   background-color: #101010; 
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    height: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.logo{
+    color: white;
+    
+}
+
+span{
+    color: #8ad673;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: white;
+}
+
+nav ul li a:hover{
+    color: #8ad673;
+    transition: .5s;
+}
+
+.about-section {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 50px;
+}
+
+ .about-section img{
+    border-radius: 50%;
+    max-height: 220px;
+    max-width: 225px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: -2%;
+
+} 
+
+ .about-section h3{
+    display: inline-block;
+    background-color: #8ad673;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 18px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    
+}
+
+.about-section p{
+    font-weight: 150;
+    padding: 2.5%;
+}
+   
+hr{
+    display:block;
+    border: 7.5px solid #101010;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #101010;
+
+}
+
+.prework{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: fit-content;
+    padding-left: 6.5%;
+    padding-right: .5%;
+
+}
+
+.prework img{
+    border-radius: 50%;
+    max-height: 400px;
+    max-width: 300px;
+    padding-left: 10px;
+
+}
+
+.prework h3{
+    display: inline-block;
+    background-color: #ae73d6;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 18px;
+    margin-top: 3.5%;
+}
+
+.prework h3 p{
+    
+    font-size: 19px;
+    padding: 2.5%;
+    font-weight: 100;
+}
+

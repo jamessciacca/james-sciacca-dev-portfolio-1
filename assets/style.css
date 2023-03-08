@@ -89,28 +89,52 @@ nav ul li a:hover{
     padding: 2.5%;
 }
    
-hr{
+* hr{
     display:block;
-    border: 7.5px solid #101010;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), 
+    color-stop(50%, #101010));
+    height: 7px;
+    border: none;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: #101010;
+    
 
+}
+
+.work_heading{
+    display: block;
+    text-align: center;
+}
+
+.work_heading h1{
+    margin-top: 2%;
+    margin-bottom: -2%;
+    text-decoration:wavy;
+    color: #101010;
 }
 
 .prework{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
     width: fit-content;
-    padding-left: 6.5%;
-    padding-right: .5%;
+
+}
+
+.prework img{
+  
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
 
 }
 
@@ -119,26 +143,20 @@ hr{
     display: block;
 }
 
-.prework img{
-    border-radius: 50%;
-    max-height: 400px;
-    max-width: 300px;
-    padding-left: 10px;
-
-}
-
 .prework h3{
-    display: inline-block;
+    align-items: center;
     background-color: #ae73d6;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     padding: 20px;
-    width: fit-content;
-    height: fit-content;
+    width: 80%;
+    height: 80%;
     font-size: 18px;
-    margin-top: 3.5%;
+    min-height: 325px;
+    margin-top: 1.5%;
+    margin-left: 5%;
 }
 
 .prework h3 p{
@@ -148,3 +166,142 @@ hr{
     font-weight: 350;
 }
 
+.mock1 {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 50px;
+}
+
+ .mock1 img{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    max-height: 300px;
+    max-width: 350px;
+    margin-top: -2%;
+
+} 
+
+ .mock1 h3{
+    display: inline-block;
+    align-items: center;
+    background-color: #ae73d6;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 20px;
+    width: 70%;
+    height: fit-content;
+    font-size: 18px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-right: 5%;
+    
+}
+
+.mock1 p{
+    font-weight: 350;
+    padding: 2.5%;
+}
+
+.mock2 {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 50px;
+}
+
+ .mock2 img{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    max-height: 300px;
+    max-width: 350px;
+    margin-top: -2%;
+
+} 
+
+ .mock2 h3{
+    display: inline-block;
+    align-items: center;
+    background-color: #ae73d6;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 20px;
+    width: 70%;
+    height: fit-content;
+    font-size: 18px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-left: 5%;
+    
+}
+
+.mock2 p{
+    font-weight: 350;
+    padding: 2.5%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    height: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #101010;
+    color: #8ad673;
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+a {
+    color: #8ad673;
+}
+
+a:visited{
+    color: #8ad673;
+}
+
+.hovertext{
+    position: relative;
+    border-bottom: 1px dotted black;
+}
+.hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color:#101010;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 1s ease-in;
+  
+    position: absolute;
+    left: -50px;
+    top: -150%;
+  }
+  
+  .hovertext:hover:before {
+    opacity: 100%;
+    visibility: visible;
+  }

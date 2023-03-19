@@ -1,3 +1,4 @@
+/* This is a univeral apllicator, it will apply these styles to every element when the page loads */
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +14,7 @@ body{
 header{
    background-color: #101010; 
 }
-
+/* I used flex box to create a basic header nav bar */
 nav{
     display: flex;
     align-items: center;
@@ -42,12 +43,12 @@ nav ul li{
 nav ul li a{
     color: white;
 }
-
+/* this changes the color of the href links over .5 seconds */
 nav ul li a:hover{
     color: #8ad673;
     transition: .5s;
 }
-
+/* I centered the whole section along with all of the others */
 .about-section {
     display:flex;
     align-items: center;
@@ -88,7 +89,7 @@ nav ul li a:hover{
     font-weight: 350;
     padding: 2.5%;
 }
-   
+/*  I created a cool horizontal line using the webkit, check it out on my deployed page   */
 * hr{
     display:block;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), 
@@ -124,7 +125,8 @@ nav ul li a:hover{
     width: fit-content;
 
 }
-
+/* I used similar styles on  all of the images to stay consistent with the design, the prework, mock1, and mock2 all share the same styling
+so you can quickly add an style new projects!*/
 .prework img{
   
     border-top-right-radius: 10px;
@@ -284,6 +286,7 @@ a:visited{
     position: relative;
     border-bottom: 1px dotted black;
 }
+/* I used the hover attribute to pop my phone number up when the user hovers over it */
 .hovertext:before {
     content: attr(data-hover);
     visibility: hidden;

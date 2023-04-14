@@ -1,6 +1,6 @@
 # James-Sciacca-Dev-Portfolio
 
-Link- https://jamessciacca.github.io/James-Sciacca-Dev-Portfolio/
+Link- https://jamessciacca.github.io/james-sciacca-dev-portfolio-1/
 
 ## Description
 
